@@ -6,6 +6,7 @@
 	--color-addition: #2196F3;
 	--color-button: #F5F4FA;
 	--color-button-change:#188CE8;
+	--color-border: #ECECEC;
 }
 
 body {
@@ -13,8 +14,64 @@ body {
 	color: hsl(0, 0%, 13%);
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+  }  
+
 a {
 	text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	border-bottom: 1px solid var(--color-border);
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.header-menu {
+	display: flex;
+	gap: 50px;
+}
+
+.header-contact {
+	display: flex;
+	gap: 50px;
 }
 
 .visually-hidden {
@@ -116,6 +173,7 @@ a {
 }
 
 .hero-title {
+	padding: 200px 0 30px 0;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.363;
