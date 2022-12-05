@@ -369,3 +369,36 @@ img {
 .footer-item:first-child {
 	padding-top: 20px;
 }
+
+.portfolio-container {
+	padding: 94px 0
+}
+
+.portfolio-menu {
+	display: flex;
+	justify-content: center
+}
+
+.menu-item {
+	padding-right: 8px;
+}
+
+.menu-item:last-child {
+	padding-right: 0;
+}
+
+.portfolio-card {
+	padding: 20px 24px;
+}
+
+.portfolio-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.portfolio-item {
+	flex-basis: calc(100% - 60px) / 3;
+	margin-right: 30px;
+	margin-top: 30px;
+}
