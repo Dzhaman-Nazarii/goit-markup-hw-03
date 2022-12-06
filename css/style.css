@@ -42,7 +42,7 @@ img {
 
 .container {
 	width: 1200px;
-	padding: 15px 0;
+	padding: 0 15px;
 	margin: 0 auto;
 }
 
@@ -131,6 +131,8 @@ img {
 .button {
 	display: block;
 	margin: 0 auto;
+	margin-right: 8[x];
+	padding: 6px 22px;
 	font-family: 'Roboto';
 	height: 50px;
 	width: 216px;
@@ -210,8 +212,6 @@ img {
 }
 
 .features {
-	width: 1200px;
-	margin: 0 auto;
 	padding: 94px 0;
 }
 
@@ -246,8 +246,6 @@ img {
 }
 
 .benefits {
-	width: 1200px;
-	margin: 0 auto;
 	padding: 94px 0;
 }
 
@@ -257,8 +255,6 @@ img {
 }
 
 .our-team {
-	width: 1200px;
-	margin: 0 auto;
 	padding: 94px 0;
 	background: var(--color-button);
 }
@@ -326,6 +322,7 @@ img {
 }
 
 .header-card {
+	margin-bottom: 4px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -338,6 +335,7 @@ img {
 	line-height: 1.875;
 	color: var(--color-paragraph);
 	letter-spacing: 0.03em;
+	margin: 0 auto;
 }
 
 .portfolio-color {
@@ -369,12 +367,14 @@ img {
 }
 
 .our-team-card {
-	padding: 30px 70px;
+	text-align: center;
+	padding: 30px 0;
+	text-align: center;
 }
 
 .header-person {
 	margin: 0;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .position-person {
@@ -394,14 +394,13 @@ img {
 }
 
 .portfolio-container {
-	width: 1200px;
-	margin: 0 auto;
 	padding: 94px 0
 }
 
 .portfolio-menu {
 	display: flex;
-	justify-content: center
+	justify-content: center;
+	padding-bottom: 50px;
 }
 
 .menu-item {
