@@ -406,7 +406,11 @@ img {
 }
 
 .menu-item {
-	margin: 8px;
+	margin-right: 8px;
+}
+
+.menu-item:last-child {
+	margin-right: 0;
 }
 
 .portfolio-card {
